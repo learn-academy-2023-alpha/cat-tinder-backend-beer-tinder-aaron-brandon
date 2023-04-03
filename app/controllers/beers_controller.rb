@@ -6,7 +6,11 @@ class BeersController < ApplicationController
 
     def create
         beer = Beer.create(beer_params)
-        render json: beer
+        if beer.valid?
+            render json: beer 
+        else
+            render json: beer.errors, status: :unprocessable_entity
+        end
     end
 
     def update
@@ -14,6 +18,8 @@ class BeersController < ApplicationController
         beer.update(beer_params)
         if beer.valid?
             render json: beer
+        else
+            render json: beer.errors, status: :unprocessable_entity
         end
     end
 
@@ -22,6 +28,8 @@ class BeersController < ApplicationController
         beer.destroy
         if beer.destroy
             render json: beer
+        else
+            render json: beer.errors, status: :unprocessable_entity
         end
     end
 
