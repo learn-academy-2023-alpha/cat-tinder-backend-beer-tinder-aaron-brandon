@@ -1,0 +1,17 @@
+name,brewery,abv,ibu,primary_flavor,secondary_flavor,Variety
+Test 1,test1,3.5,45,chocolate,coffee,Stout
+Test 2,test2,4.8,50,vanilla,Citrus,Lager
+Test 3,test3,7.8,70,cedar,chocolate,Amber Ale
+Test 4,test4,9.8,80,coffee,vanilla,Blonde
+Test 5,test5,3.8,80,Citrus,cedar,Sour
+Test 6,test6,4.7,40,chocolate,coffee,Porter
+Test 7,test7,4.9,50,vanilla,Citrus,Ale
+Test 8,test8,5.5,34,cedar,Citrus,Sour
+Test 9,test9,2.7,40,coffee,chocolate,Red Ale
+Test 10,test10,4.6,90,Citrus,vanilla,Heffewiesen
+Cali Creamin’,Mother Earth Brewing Company,5.0,,,,Cream Ale
+Natural Bridge: Pilsner,Eppig Brewing,5.1,23,,,Pilsner - German
+Stone IPA,Stone Brewing,6.9,71,,,IPA - American
+Nelson! Nelson!,Harland Brewing Company,7,,,,IPA - American
+Huckleberry Dark Sour Ale,Owl Farm Unique Fermentations,7,5,Berries,Brown sugar,Sour - Fruited
+Cosmic Crisp,2 Towns Ciderhouse,8,,Apple,Acid,Cider - Traditional
