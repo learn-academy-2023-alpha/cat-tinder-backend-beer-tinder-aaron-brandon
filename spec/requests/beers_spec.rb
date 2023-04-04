@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe "Beers", type: :request do
+  
+  # Test to ensure that the get method works
   describe "GET /index" do
     it 'gets a list of beers' do
       Beer.create(
@@ -20,6 +22,7 @@ RSpec.describe "Beers", type: :request do
     end
   end
 
+  #Test to ensure the create method only works for valid entries
   describe "POST /create" do
     it 'creates a beer' do
       # Params we are going to send with the request
@@ -47,6 +50,7 @@ RSpec.describe "Beers", type: :request do
     end
   end
 
+  #Test to ensure data is validated upon update
   describe "PATCH /update" do
     it 'updates a beers data' do
 
@@ -99,6 +103,7 @@ RSpec.describe "Beers", type: :request do
     end
   end
 
+  #Test to ensure data is validated upon delete
   describe "DELETE /destroy" do
     it 'removes a beer from the database' do
       beer_params = {
@@ -134,6 +139,7 @@ RSpec.describe "Beers", type: :request do
   end
 
   describe "meaningful status codes" do
+    #checks for throwing a 422 upon bad create
     it "does not create a beer without a name" do
       beer_params = {
         beer: {
@@ -156,7 +162,6 @@ RSpec.describe "Beers", type: :request do
       #expect that the errors will include a can't be blank error
       expect(json['name']).to include "can't be blank"
     end
-
     it "does not create a beer without a brewery" do
       beer_params = {
         beer: {
@@ -179,6 +184,7 @@ RSpec.describe "Beers", type: :request do
       #expect that the errors will include a can't be blank error
       expect(json['brewery']).to include "can't be blank"
     end
+
 
     #NOTE: I HAVE STOPPED ADDING THE UNVALIDATED ATTRIBUTES AS THEY ARE PRETTY MUCH A HUGE PAIN IN MY REAR END :-)
     #tests to ensure a 422 error is given when performing an invalid update - missing name
@@ -252,67 +258,34 @@ RSpec.describe "Beers", type: :request do
       expect(json['name']).to include "can't be blank"
     end
 
-    #catch-all test for all invalid entries
-    it 'sends an 422 error for invalid entries' do
-      beer_params_no_name = {
+    #test to ensure that a 404 error is given when deleting an entry that wasn't found
+    it 'throws a 404 error when deleting a nonexisting entry' do
+      beer_params = {
         beer: {
-          name: nil,
-          brewery: "testbrewery"
-        }
-      }
-      beer_params_no_brewery = {
-        beer: {
-          name: 'testname',
-          brewery: nil
-        }
-      }
-      beer_params_name_short = {
-        beer: {
-          name: 'a',
-          brewery: "testbrewery"
-        }
-      }
-      beer_params_brewery_short = {
-        beer: {
-          name: 'testname',
-          brewery: "a"
-        }
-      }
-      beer_params_valid = {
-        beer: {
-          name: 'validname',
-          brewery: "validbrewery"
-        }
-      }
-      beer_params_duplicate = {
-        beer: {
-          name: 'validname',
-          brewery: "validbrewery"
+          name: 'test',
+          brewery: 'testbrewery',
+          abv: 4.0,
+          ibu: 40,
+          primary_flavor: 'coffee',
+          secondary_flavor: 'chocolate',
+          color: 'black',
+          variety: 'stout'
         }
       }
 
-      post '/beers', params: beer_params_no_name
-      beer_no_name = Beer.last
+      #create a beer so that we can delete it
+      post '/beers', params: beer_params
 
-      post '/beers', params: beer_params_brewery_short
-      beer_brewery_short = Beer.last
+      #set beers to our array of beers
+      beers= Beer.all
+      #set beer to equal the beer we created
+      beer = Beer.first
 
+      #delete the beer 
+      delete "/beers/invalidaddress"
 
-      post '/beers', params: beer_params_name_short
-      beer_name_short = Beer.last
-
-
-      post '/beers', params: beer_params_no_brewery
-      beer_no_brewery = Beer.last
-
-
-      post '/beers', params: beer_params_valid
-      beer_valid = Beer.last
-
-      post '/beers', params: beer_params_duplicate
-      beer_duplicate = Beer.last
-
-
+      #make sure we get back a good status code
+      expect(response).to have_http_status(404)
       
     end
   end
