@@ -10,5 +10,6 @@ CSV.foreach(Rails.root.join('lib/beer-seed.csv'), headers: true) do |row|
         color: row["color"],
         variety: row["variety"]
     })
+    p "added beer"
 end
 
