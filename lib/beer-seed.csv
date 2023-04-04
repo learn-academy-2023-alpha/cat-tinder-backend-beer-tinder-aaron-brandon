@@ -1,17 +1,278 @@
-name,brewery,abv,ibu,primary_flavor,secondary_flavor,Variety
-Test 1,test1,3.5,45,chocolate,coffee,Stout
-Test 2,test2,4.8,50,vanilla,Citrus,Lager
-Test 3,test3,7.8,70,cedar,chocolate,Amber Ale
-Test 4,test4,9.8,80,coffee,vanilla,Blonde
-Test 5,test5,3.8,80,Citrus,cedar,Sour
-Test 6,test6,4.7,40,chocolate,coffee,Porter
-Test 7,test7,4.9,50,vanilla,Citrus,Ale
-Test 8,test8,5.5,34,cedar,Citrus,Sour
-Test 9,test9,2.7,40,coffee,chocolate,Red Ale
-Test 10,test10,4.6,90,Citrus,vanilla,Heffewiesen
-Cali Creamin’,Mother Earth Brewing Company,5.0,,,,Cream Ale
-Natural Bridge: Pilsner,Eppig Brewing,5.1,23,,,Pilsner - German
-Stone IPA,Stone Brewing,6.9,71,,,IPA - American
-Nelson! Nelson!,Harland Brewing Company,7,,,,IPA - American
-Huckleberry Dark Sour Ale,Owl Farm Unique Fermentations,7,5,Berries,Brown sugar,Sour - Fruited
-Cosmic Crisp,2 Towns Ciderhouse,8,,Apple,Acid,Cider - Traditional
+name,brewery,abv,ibu,primary_flavor,secondary_flavor,variety
+Cherry Pie Ale,Wild Leap,6.5,20,fruity,chocolate,Ale
+Bleeding Heart,Second Self,6.9,20,tart,chocolate,Ale
+Emergency Drinking Beer Watermelon,Wild Heaven,4.3,23,tart,funk,Ale
+Cotton Tail Creamsicale,Red Hare,5.5,30,spiced,fruity,Ale
+American Blackberry Ale,Wild Leap,6.5,40,bright,Apple,Ale
+Banana Bread Beer,Well's,5.2,90,salty,apple,Ale
+Midas Touch,Dogfish head,9,70,tropical,fruity,Ale/Wine/Mead Combo
+Thai Wheat,Second Self,5.1,15,spiced,fruity,American Wheat
+Hell or High Watermelon,21st Amendment,4.9,70,fruity,wheat,American Wheat
+Son of a Peach,RJ Rockers,5.6,50,nutty,lime,American Wheat Ale
+No Way Frose,Prairie,4.9,45,salty,citrus,American Wild Ale
+Karate Chimp,Prairie,5.4,50,tart,hops,"Apricot, Mango, Tangerine Sour"
+Mas Agave,Founders,10,90,fruity,Apple,Barrel Aged Imperial Lime Gose
+Brother Thelonius,North Coast,9.4,30,tropical,sweetness,Belgian Abbey Ale
+Rosetta,Ommegang,5.6,50,fruity,berryu,Belgian Kreik
+White Blackbird,Wild Heaven,6,71,tart,citrus,Belgian Saison
+Desert Dawn,Southbound,5.3,80,tart,wheat,Belgian Saison Ale w/ Elderberriers
+FuMan Brew,Monday Night,5.2,50,fruity,citrus,Belgian Style Wit w/ Ginger
+Union,Reformation,4.8,45,tart,wheat,Belgian White Ale
+T-Time,Terrapin,4,90,fruity,fruity,Berliner Weiss
+Athena,Creature Comforts,4.5,40,Doughy,melon,Berliner Weisse
+Sour Continuum Pink Guava,Six Bridges,4.3,30,tart,chocolate,Berliner Weisse Sour w/ pink guava
+"Well, Bless Her Tart",Red Hare,3.8,40,Nutty,refreshment,Berliner Weisse Strawberry
+Wild Bramble,Southern Brewing,4.5,90,tart,lime,Berliner Weisse Style w/Raspberry/Blackberry
+Fruit Cup,Pontoon,5.1,30,Juicy,melon,"Berliner Weisse w/ Blueberry, cherry, vanilla"
+Flotation Device,Pontoon,5.1,45,fruity,lime,"Berliner Weisse w/ pineapple, tart cherry"
+Festina Peche,Dogfish Head,4.5,80,Juicy,refreshment,Berliner Wheat Session Sour Peach
+Berry Belgian Waffle,Red Hare,7.9,90,tropical,chocolate,Berry Belgian Ale
+dr. robot,Monday Night,5,34,Doughy,tartness,Blackberry Lemon Sour Ale
+Belga Rose,New Realm,5,10,fruity,berry,Blonde Ale
+Pineapple Beach,Funky Buddha,5,30,spiced,sourness,Blonde Ale
+Sticky Treats,Funky Buddha,5.1,45,Nutty,chocolate,Blonde Ale
+Lunatic,Wicked Weed,6.5,40,Bright,chocolate,Blonde Belgian Ale
+Blind Pirate,Monday Night,7.4,40,tart,fruity,Blood Orange IPA
+bless your little tart,New Realm,5.3,40,tart,hops,Blueberry Peach Gose
+Peanut Butter Jelly Time,Catawba,5.7,70,Nutty,Fruity,Brown Ale
+Cherry Key Lime Burst,Wicked Weed,4.5,50,fruity,Fruity,"Cherry , Key Lime Sour"
+Judge Roy Bean,Fairhope,5,40,chocolatey,berryu,Coffee Stout
+Enchantress,Three Taverns,5,50,Doughy,refreshment,Cranberry Sauce Sour Ale
+Vanilla Barrel Cream Ale,Kentucky,5.5,90,tart,sweetness,Cream Ale
+Pico To Mexico,Golden Road,4.8,40,tart,fruity,Cucumber Lime Lager w/Habenero
+Breakfast Hero,Trimtab,8.5,34,fruity,citrus,English Sweet/Milk Stout
+Ain't That A Peach,Red Hare,3.9,40,Juicy,Fruity,Fruite Berliner Weiss
+Rubaeus,Founders,5.7,40,tart,chocolate,Fruited Ale
+Athena Paradiso,Creature Comforts,4.5,23,tart,lime,Fruited Berliner Weisse
+Athena Paradiso Guava,Creature Comforts,4.5,71,tart,sourness,Fruited Berliner Weisse
+Sol Crusher,Pontoon,5.3,50,salty,sourness,"Fruited Lager w/ pear, lime"
+Sykophantes Blanc,Orpheus,9,80,tart,chocolate,Golden Sour Ale w/ Fig
+Imperial Peach Gose,Southern Tier,8.3,5,tart,Apple,Gose
+Imperial Grape Gose,Southern Tier,8.3,10,tart,berryu,Gose
+Keylime Pie Gose,Westbrook,4,20,bright,chocolate,Gose
+Fruited Gose,Red Brick,4.7,20,tart,citrus,Gose
+Limey Gose,Victory,4.7,20,Nutty,fruity,Gose
+Maverick and Gose,Second Self,4.4,30,Nutty,canilla,Gose
+Briney Melon Gose,Anderson Valley,4.2,34,salty,melon,Gose
+Gose,Westbrook,4,40,tart,sourness,Gose
+"Kimmie, Yink, Holy Gose",Anderson Valley,4.2,40,tart,lime,Gose
+Watermelon Gose,Terrapin,4.3,40,salty,canilla,Gose
+To Gose,Abita,4.1,80,salty,citrus,Gose
+Coco Pina Gose,Coastal Empire Beer,4,90,fruity,hops,Gose
+Hulk Hands,Prairie,5.4,70,bright,melon,Gose Sour
+Lemon Cucumber Gose,Westbrook,4,30,fruity,fruity,"Gose w/ Coriander, Cumumber, lemon, sea salt"
+Tritonia 2018,Creature Comforts,4.5,10,nutty,sweetness,Gose w/ Cucmber Lime Salt Coriander
+Brewer's Day Off,D9,4.8,30,tart,chocolate,Gose w/ Cucumber and melon
+Boats and Gose,Pontoon,5.1,70,tart,sweetness,"Gose w/ Strawberry, coconut, lime"
+Salt and Seed,Elysian,4.3,20,fruity,sourness,"Gose w/ Watermelon, sea salt"
+Citra Gose,Hi Wire Brewing,4.2,20,tart,hops,Gose w/ Wheat
+Sea Lion Sour,Atlanta Brewing,4.7,90,bright,sourness,"Gose w/Blueberry,Raspberry, Sea Salt"
+Hurricane,Dry County Brewing,4.5,90,Doughy,citrus,"Gose w/Cherry, pineapple, guava"
+Super Eight,Dogfish Head,5.3,80,fruity,chocolate,"Gose w/Pear,mango, blackberry, boysenberry, raspberry, elderberry, kiwi, quinoa, salt"
+Tritonia 2019,Creature Comforts,4.5,5,spiced,fruity,Gose w/Pineapple and Lemon
+Havana Night,Second Self,4.7,40,tropical,citrus,Guava Sour
+All You Get is All You Get,Orpheus,5,80,bright,apple,Hazy Sour Ale
+Citrus Grove,Eventide,5.7,15,tart,sweetness,Hefeweizen
+Transilience,Southbound,7,80,tart,citrus,Imperial Berliner Weisse w/ Pomegranate and Mango
+Vanilla Gorilla,Red Brick,8,15,tart,tartness,Imperial Porter
+Mango Colada,Trimtab,8,40,tart,funk,"Imperial Sour w/ Mango, coconut, lime"
+Imperial Oaxaca Choca,New Realm,10.7,5,tart,wheat,Imperial Stout
+10w-40,HiWire,8,15,creamy,melon,Imperial Stout
+Samoa This,Southern Tier,10,15,Nutty,apple,Imperial Stout
+Wake N Bake Coffee Imperial Stout,Terrapin,9.4,20,tart,citrus,Imperial Stout
+Choklat,Southern Tier,10,20,spiced,chocolate,Imperial Stout
+Narwhal,Sierra Nevada,10.2,20,salty,refreshment,Imperial Stout
+Imperial Stout,Samuel Smith's,7,23,creamy,Apple,Imperial Stout
+Ferryman,Orpheus,10.5,40,fruity,sourness,Imperial Stout
+Declaration,Reformation,9.7,50,bright,citrus,Imperial Stout
+Fistful of Cake,Monday Night,9,90,tart,refreshment,Imperial Stout
+Hoptropolis IPA,New Realm,6.5,20,creamy,citrus,IPA
+Hop Dang Diggity Pineapple Habenero,Jekyll,6.7,30,chocolatey,lime,IPA
+Blackberry Daze IPA,Anchor,6.5,50,fruity,hops,IPA
+Rowdy and Proud,Three Taverns,6,70,tart,chocolate,IPA
+Two claw IPA,Westbrook,7,80,spiced,refreshment,IPA
+Dreams of Oblivion,Trimtab,7,90,creamy,citrus,IPA
+Lupu Luau,Dogfish Head,7.3,40,salty,Fruity,IPA Coconut
+Death By Coconut,Oskar Blues,6.5,40,Nutty,citrus,Irish Porter
+Lime of the Party,New Realm,4,15,chocolatey,funk,Key Lime Pie Gose
+Honey Kolsch,Rogue,5.2,34,spiced,sourness,Kolsch
+Octoberfest Lager,Lakefront,5.8,20,spiced,berryu,Lager
+Wheels Gose Round,Left Hand,4.4,30,Nutty,Apple,Leipzig Gose
+Prairie Flare,Prairie,5.4,80,fruity,lime,Leipzig Gose
+Aint Afraid No Gose,Line Creek,4.3,80,salty,chocolate,Lemon Sorbet Gose
+Rainbow Serpent,Orpheus,6,5,creamy,Fruity,"Lime, raspberry, pineapple, vanilla sour"
+Passionfruit Express,Hemptails,8,90,tart,tangy,"Malt Beer w/ passionfruit, hemp"
+Mango Cart,Golden Road,4,50,bright,refreshment,Mango Wheat Ale
+Morning Smack,Three Taverns,8,80,tart,Fruity,"Maple Bacon, Banana, Coffee Milk Stout"
+Fest Beer,Wild Heaven,5.5,10,spiced,hops,Marzen
+Marzen,Duck Rabbit,4.6,23,tart,citrus,Marzen
+Oktoberfest,Left Hand,6.6,45,tropical,chocolate,Marzen Lager
+Koko Buni,Creature Comforts,6.5,20,Bright,berryu,Milk Porter
+Honorary Girl Scout Sam O'Nut Cookies,Pontoon,6.3,80,bright,fruity,Milk Porter
+Neapolitan Milkshake Stout,Scofflaw,5.5,10,fruity,apple,Milk Stout
+Moohoo,Terrapin,6,30,bright,tartness,Milk Stout
+Milk Stout,Left Hand,6,50,Juicy,apple,Milk Stout
+Milk Stout,Duck Rabbit,5.7,71,nutty,hops,Milk Stout
+Vanilla Ice Cream Stout,Wild Leap,10.5,30,fruity,sweetness,"Milk Stout, vanilla, sugar, lactose"
+The floor is lava,Pontoon,7.5,80,fruity,berryu,"Milkshake IPA Strawberry, Guava, Kiwi, Vanilla lactose"
+Hard Wired Nitro,Left Hand,6,70,fruity,sourness,Nitro Porter
+Silent Accord,Six Bridges,6.5,45,bright,Fruity,"Oat, milk sugar, chocolate malt"
+Oktoberfest,Red Hare,5.5,20,fruity,tangy,Oktoberfest
+Cotton Tale Pale Ale,Red Hare,5.5,30,salty,berry,Pale Ale
+Pale Sour Ale,Ommegang,6.9,70,salty,Apple,Pale Sour Ale
+Peach Of Mind,Catawba,4.5,80,tropical,tangy,Peach Grisette
+fluffier otter,Pontoon,9,40,Doughy,Apple,Peanut Butter Marshmallow Imperial Milk Stout
+Over and Over,Orpheus,5,50,Doughy,chocolate,Pineapple Sour Ale
+pometheus,Three Taverns,5,80,nutty,tangy,Pomegranate Blueberry Sour Ale
+Peanut Butter Porter,Back Forty (Gadsden),10,5,nutty,chocolate,Porter
+Porter,Duck Rabbit,5.4,10,spiced,melon,Porter
+Porter,Founders,6.5,20,tart,apple,Porter
+Hop Cocoa,Wicked Weed,6.5,34,tart,tangy,Porter
+Mocha Porter,Rogue,5.6,40,Bright,sweetness,Porter
+Liquid Bliss,Terrapin,6,45,fruity,fruity,Porter
+Coconut Porter,Cherry Street,6,50,salty,citrus,Porter
+Schwarzchild Porter,Southern Sky,6,71,fruity,fruity,Porter
+King Coconut,Catawba,5.5,80,Juicy,berry,Porter
+Salted Caramel Chocolate Porter,Genesee,6.5,80,salty,tartness,Porter
+Vanilla Porter,Breckenridge,5.4,90,creamy,canilla,Porter
+Mole Porter,Second Self,6.5,90,Juicy,tartness,Porter
+Yoshimi,Reformation,5,70,fruity,funk,"Rainbow Sherbert Sour Ale w/ raspberry, pineapple , orange"
+Rapturous,Three Taverns,5,40,spiced,berry,Raspberry Sour Ale
+Tart Vise,Jekyll,4.5,40,fruity,sourness,Raspberry Tart Ale
+Doomsday Hound,New Realm,9.5,30,fruity,citrus,Russian Imperial Stout
+Saison 2016,Second Self,5.5,40,fruity,fruity,Saison
+Cinnamon Cocoa Coffee Drafty Kilt,Monday Night,7.2,40,nutty,chocolate,Scotch Ale
+Smoking Mirror Porter,Quest,5.5,5,fruity,canilla,Smoked Porter
+Mavis,Wild Heaven,5.5,5,Nutty,melon,Sour Ale
+Larry's Latest Sour Ale,Bell's,5,15,Bright,sourness,Sour Ale
+After The Last Death,Orpheus,6.5,34,tart,fruity,Sour Ale
+Discography Sour Collection,Southbound,5.8,40,nutty,funk,Sour Ale
+Cucumber Sour,10 Barrel,5,45,refreshing,tangy,Sour Ale
+Bel Air Sour,Brooklyn,5.8,45,tart,refreshment,Sour Ale
+SeaQuench Ale,Dogfish Head,4.9,50,tart,tangy,Sour Ale
+Wild Sour Cranberry Criek,Destihl,5,50,Nutty,tartness,Sour Ale
+Raspberry Sour,10 Barrel,6.5,50,tart,berry,Sour Ale
+Marionberry Sour,Rogue,6.5,90,fruity,fruity,Sour Ale
+Wondering Blues,Orpheus,6,40,tart,canilla,Sour Ale Blueberry
+Key Lime Pie Ale,Funky Buddha,5,50,tropical,fruity,Sour Ale Key lime pie
+Nothing Left to Give,Orpheus,5.9,90,nutty,citrus,Sour Ale Raspberry
+Currant Events,Monday Night,4.5,23,spiced,Fruity,"Sour Ale w/ Black Currant, Boysenberry"
+Lil Nap,Prairie,4.5,80,Doughy,sourness,"Sour Ale w/ blackberry, lime"
+Blueberry Boyfriend,Prairie,5.9,40,tart,sweetness,"Sour Ale w/ blueberry, lemon zest"
+Saporous,Three Taverns,5,50,Bright,wheat,"Sour Ale w/ Passionfruit, guava"
+Painkiller,Dry County Brewing,5,40,tart,funk,"Sour Ale w/ Pineapple, coconut, orange zest"
+Over and Over and Over Again,Orpheus,7,40,spiced,tartness,"Sour Ale w/ pineapple, passionfruit, guava"
+Pink Cadillac,Southbound,4.8,50,spiced,citrus,Sour Ale w/ Pink Guava
+Plants Have no Memories,Orpheus,6.5,23,Bright,fruity,Sour Ale White Grape
+Cherry Limeade,Cherry Street,4,34,tart,funk,Sour Berliner Weisse
+Red and Black,Southern Brewing,4.5,40,creamy,sourness,Sour Berliner Weisse
+Cherry Apricot Vanilla,Trimtab,5,40,chocolatey,hops,Sour Berliner Weisse
+Double Cup Aquaberry Fist,Pontoon,7.6,50,tart,chocolate,"Sour Berliner Weisse w/ Blueberry, strawberry, watermelon"
+Crushing Waves,Pontoon,5.1,34,tart,apple,"Sour Berliner Weisse w/ pineapple, cherry"
+Pomereader,Back Forty,3.5,10,tart,Apple,Sour Berliner Weisse w/ Pomegranate
+Sour Monkey Tripel,Victory,9.5,15,tropical,berryu,Sour Brett Tripel
+Kirsch Gose,Victory,4.7,30,Juicy,Apple,Sour Cherry Bier
+Le Peche Mode,D9,7,40,creamy,apple,Sour Fruited
+Bro Ham,Gate City,4.5,80,fruity,citrus,Sour Gose
+Farmhouse Berry Gose,Pretoria Fields,4.5,10,chocolatey,fruity,Sour Gose Berry
+Marg-Arita Blood Orange Gose,Trimtab,5,23,fruity,melon,Sour Gose w/ blood orange
+Ice Box,Southern Prohibition,3.5,23,chocolatey,sweetness,"Sour Gose w/ Lemon, sea salt"
+Tropical Gose,Southern Barrel,4.7,40,fruity,melon,"Sour Gose w/mango, watermelon"
+Serpent Bite,Orpheus,6,71,fruity,refreshment,Sour Saison
+Wilder,Reformation,7,80,Doughy,citrus,"Sour w/ blackberry, cranberry, black currant, ginger"
+Discord,D9,5.5,90,chocolatey,sourness,Sour w/ Concord grapes
+Carnaval,D9,5.5,40,fruity,chocolate,"Sour w/ passionfruit, creme"
+Rainbow Sherbert,Prairie,5.2,50,tart,fruity,"Sour w/ Raspberry, pineapple, orange"
+Watermelon Dragonfruit Burst,Wicked Weed,4.5,40,creamy,berry,"Sour w/watermelon, dragonfruit"
+Apricot Funk,Prairie,6.3,34,nutty,berryu,Sour Wild Ale
+Pink Guava Funk,Prairie,6.3,40,spiced,Apple,Sour Wild Ale
+Coconut Pecan Stout,D9,8,20,tart,fruity,Stout
+Cherry Stout,Bell's,7,30,fruity,chocolate,Stout
+Rollin' Deep Cinnamon Roll,Wild Leap,8.5,30,Doughy,apple,Stout
+Even More Pecan Pie Jesus,Evil Twin,12,30,creamy,fruity,Stout
+Beer for Breakfast Stout,Dogfish Head,7.4,34,bright,berry,Stout
+Peanut Butter Chocolate Porter,Catawba,5.4,40,fruity,wheat,Stout
+Chocolate Orange Stout,Breckenridge,6,40,chocolatey,citrus,Stout
+Bourbon Barrel Stout,Kentucky,8,40,tart,fruity,Stout
+Big Shanty Graham Cracker Stout,Burnt Hickory,9,50,spiced,chocolate,Stout
+Half Gallon Milk Stout,Gate City,5.2,70,Juicy,canilla,Stout
+Organic Chocolate Stout,Samuel Smith's,5,71,chocolatey,chocolate,Stout
+Rhubarb Schmubarb,Rogue,5.9,40,tart,berryu,Strawberry Rhubarb Ale
+Vacanza - Gose,Wild Leap,5.5,45,tart,sourness,Tangerine and Hisbiscus Gose
+Snozzberrie Crumble,Pontoon,5.1,40,nutty,sourness,"Tart ale w/ blackberry, black currant, vanilla, cinnamon, milk sugar"
+Flamingo Fruit Fight,Bell's,5,40,tart,fruity,Tart Fruit Ale
+Atalanta,Orpheus,5.25,10,tart,chocolate,Tart Plum Saison
+Hurricane Gose,Hi Wire,6,40,tart,berry,"Tart wheat ale0 passion fruit, cherries, orange, pineapple"
+La Fin Du Monde,Unibroue,9,5,spiced,sweetness,Tripel Golden Ale
+Cali' Creamin',Mother Earth Brew,5,71,Bright,tangy,Vanilla Cream Ale
+Nada Banana Ale,Omaha,5.4,45,Juicy,fruity,Weiss Beer
+Dirty Beaches Tropical Wheat,Scofflaw,6.3,5,tart,sourness,Wheat Ale
+Winter Cheers,Victory,6.7,40,fruity,chocolate,Wheat Ale
+Palisades Pineapple,Golden Road,4,34,fruity,chocolate,Wheat Ale w/ Pineapple Apricot
+Priscilla,Oskar Blues,5.2,20,tropical,hops,White Wit
+Vape Tricks,Prairie,5.9,90,Bright,chocolate,Wild Ale
+Sour Me Unicorn Farts,Duclaw Brewing,4.8,5,Bright,lime,Gose
+Very Berry Sour Smoothie,Hi Wire,4.7,5,fruity,citrus,Gose w/Pineapple and Lemon
+Sour Flower,Pontoon,4.9,5,chocolatey,fruity,Imperial Stout
+Horchata 10w-40,Hi Wire,5,10,Bright,funk,"Lime, raspberry, pineapple, vanilla sour"
+The Most Imperial Pie,Pontoon,4.9,10,creamy,tartness,Porter
+Drop the Pressure,Tripping Animals,4.7,10,tart,sourness,Smoked Porter
+Fauci Summer,Wild Heaven,5.5,15,Juicy,sourness,Sour Ale
+Athena Painkiller,Creature Comforts,4.7,15,fruity,Apple,Tripel Golden Ale
+Cherry Atalanta,Orpheus,4.9,15,fruity,berry,Wheat Ale
+Witching Hour,Pontoon,4.7,15,tart,chocolate,Gose
+Fortress of Sour Two,Wild Heaven,5.5,20,tropical,lime,Gose w/Pineapple and Lemon
+Cider Donut,Bear and Skiff,4.9,20,spiced,apple,Imperial Stout
+Puff Tart XL,Brewing Project,4.9,20,fruity,tartness,"Lime, raspberry, pineapple, vanilla sour"
+Chocolate Sea Salt Imperial Ale,New Realm,4.9,20,Nutty,sourness,Porter
+When all Goes Black My Shadow,Orpheus,4.9,20,chocolatey,tangy,Smoked Porter
+New Wave Radical Blonde Ale,Pontoon,5,20,fruity,refreshment,Sour Ale
+Nightmare Fuel,Pontoon,4.9,20,Juicy,citrus,Tripel Golden Ale
+Baked Goods II,Atlanta Brewing,4.8,23,Doughy,fruity,Wheat Ale
+Jelly Donut 10w-40,Hi Wire,4.9,23,nutty,wheat,Gose
+Pecan Pie Paradise,Pontoon,4.8,23,fruity,canilla,Gose w/Pineapple and Lemon
+Slush,Prairie,5,23,tart,sourness,Imperial Stout
+Rhuberry Pie Puff Tart,Brewing Project,4.9,30,tart,fruity,"Lime, raspberry, pineapple, vanilla sour"
+Systema Natvra,D9,4.8,30,tart,canilla,Porter
+Minotaur,Orpheus,5,30,tart,wheat,Smoked Porter
+Double Cup Ruby Wrist,Pontoon,4.8,30,tart,Fruity,Sour Ale
+Flamingo Banana,Pontoon,4.9,30,fruity,funk,Tripel Golden Ale
+Cherry Crush,Southern Tier,4.9,30,tropical,sourness,Wheat Ale
+The Purple One,Southbound Brewing,4.9,34,Bright,hops,Gose
+Vacanza Coconut Cream Pie,Wild Leap,10.5,40,salty,fruity,Gose w/Pineapple and Lemon
+Pineapple Shipwreck,Akademia,4.8,40,Juicy,citrus,Imperial Stout
+Sweetheart Deal,Atlanta Brewing,4.8,40,fruity,sweetness,"Lime, raspberry, pineapple, vanilla sour"
+Margarita Gose,Cigar City,5,40,bright,citrus,Porter
+Sunday Feels,Dogfishead,4.8,40,fruity,wheat,Smoked Porter
+Cannoli Stout,Harpoon,4.9,40,Doughy,Fruity,Sour Ale
+Dr. Robot Key Lime Sour 2020,Monday Night,4.8,40,bright,canilla,Tripel Golden Ale
+Pastry Porter Horse,New Realm,4.8,40,spiced,lime,Wheat Ale
+Over and Over and Over 2020,Orpheus,4.7,40,tart,citrus,Gose
+Decadent Mousse,Pontoon,4.8,40,Bright,fruity,Gose w/Pineapple and Lemon
+Fruit Cup Vol. 2,Pontoon,4.8,40,spiced,tangy,Imperial Stout
+Peach City,Pontoon,4.8,40,tropical,wheat,"Lime, raspberry, pineapple, vanilla sour"
+Seasick Crocodile,Prairie,4.9,40,fruity,apple,Porter
+Mittens,Reformation,4.8,40,tart,melon,Smoked Porter
+Goses are Free,Sweetwater,4.9,40,Juicy,chocolate,Sour Ale
+Funkatorium/Pears,Wicked Weed,4.9,40,fruity,citrus,Tripel Golden Ale
+Pinch of Salt,D9,4.8,45,spiced,citrus,Wheat Ale
+Apple Pie Gose,Westbrook,4.8,45,Doughy,canilla,Gose
+Sour Continuum w/ Blueberry,Six Bridges,4.8,50,fruity,tangy,Gose w/Pineapple and Lemon
+lassi what you think about this,Westbrook,4.8,50,tart,citrus,Imperial Stout
+Garden Dreams,Six Bridges,4.8,70,Doughy,berry,"Lime, raspberry, pineapple, vanilla sour"
+Tiki Time,Westbrook,4.8,70,tart,tartness,Porter
+Jellyfish Berliner Weisse,Atlanta Brewing,4.8,71,tart,berryu,Smoked Porter
+S'mores Porter,Hi Wire,4.9,71,spiced,citrus,Sour Ale
+"Sales, Sweat and Beer",Pontoon,4.9,71,tart,citrus,Tripel Golden Ale
+Pineapple Upside Down Cake,Prairie,4.7,71,creamy,chocolate,Wheat Ale
+Beach Comber,Trimtab,5,71,tart,lime,Gose
+Send Your Ninja,Akademia,4.7,80,tropical,funk,Gose w/Pineapple and Lemon
+Mischief Managed,Monday Night,4.8,80,tart,fruity,Imperial Stout
+Kewl Aid Sour,Reformation,4.8,80,tart,hops,"Lime, raspberry, pineapple, vanilla sour"
+Strawberry Rhubarb Pie Gose,Westbrook,4.8,80,nutty,fruity,Porter
+Truck Chaser,Wild Leap,10.5,90,tart,berryu,Smoked Porter
+Y'all Peachy,New Realm,4.8,90,tart,melon,Sour Ale
+Intertiatic,Orpheus,4.8,90,spiced,funk,Tripel Golden Ale
+Double Cup Syrup Water Fountain,Pontoon,4.8,90,spiced,chocolate,Wheat Ale
+Tropical Clusterfuck,Pontoon,4.8,90,Nutty,berry,Gose
+Funkatorium/Peaches,Wicked Weed,4.9,90,chocolatey,wheat,Gose w/Pineapple and Lemon
