@@ -1,11 +1,11 @@
-class BeersController < ApplicationController
+class LikedBeersController < ApplicationController
     def index
-        beers = Beer.all
+        beers = LikedBeer.all
         render json: beers
     end
 
     def create
-        beer = Beer.create(beer_params)
+        beer = LikedBeer.create(beer_params)
         if beer.valid?
             render json: beer 
         else
@@ -14,7 +14,7 @@ class BeersController < ApplicationController
     end
 
     def update
-        beer = Beer.find(params[:id])
+        beer = LikedBeer.find(params[:id])
         beer.update(beer_params)
         if beer.valid?
             render json: beer
@@ -24,7 +24,7 @@ class BeersController < ApplicationController
     end
 
     def destroy
-        beer = Beer.find(params[:id])
+        beer = LikedBeer.find(params[:id])
         beer.destroy
         if beer.destroy
             render json: beer
@@ -32,9 +32,6 @@ class BeersController < ApplicationController
             render json: beer.errors, status: :unprocessable_entity
         end
     end
-
-
-
 
 
     private
@@ -47,8 +44,7 @@ class BeersController < ApplicationController
         :primary_flavor, 
         :secondary_flavor, 
         :color, 
-        :variety,
-        :img)
+        :variety)
     end
 
 end
